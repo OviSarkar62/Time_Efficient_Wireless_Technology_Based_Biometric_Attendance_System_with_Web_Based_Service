@@ -16,6 +16,7 @@ The system consists of two main units:
 
 - Hardware Unit: Comprises an Arduino UNO, FPM10A fingerprint sensor, HC-05 Bluetooth module, and a power supply system.
 - Software Unit: Includes the backend database (MySQL) and a web application for attendance management.
+
 The system workflow is as follows:
 
 - Fingerprint data is captured and processed using the SmakFinger3.0 Algorithm.
