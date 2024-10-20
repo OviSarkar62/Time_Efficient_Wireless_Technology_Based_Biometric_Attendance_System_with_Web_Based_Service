@@ -1,11 +1,15 @@
 # Time_Efficient_Wireless_Technology_Based_Biometric_Attendance_System_with_Web_Based_Service
 
-## Summary:
-This project presents a cost-effective wireless biometric attendance system having the fastest data transfer rate. It is more user friendly than the previous versions of any attendance system. The main focus is to develop an automated fingerprint based attendance system and also an information service system for an academic domain by using biometric technology in addition to the programmable logic circuit (Arduino) and web-based application. The system also includes Bluetooth technology for smooth operation and low costing. The capability to operate at both AC (Alternating Current) and DC (Direct Current) power sources makes this system more attractive and efficient.
+## Overview
+This repository contains the code and implementation for a Time Efficient Wireless Technology-Based Biometric Attendance System designed to improve attendance management in academic settings. By integrating fingerprint biometric technology with wireless data transmission and a web-based service, this system provides a secure, fast, and user-friendly way to record and monitor attendance. The system operates with both AC and DC power, ensuring reliability in various environments.
 
 
-## Apparatus:
-HC-05, FPM 10A, Arduino Uno, TTL, Power supply, Cooler fan, Lipo battery, Bug converter, Relay, Charger battery, Casing, Cod.
+## Key Features
+- Automated Fingerprint-based Attendance: Uses fingerprint recognition to record attendance, minimizing the chance of proxy attendance.
+Wireless Data Transfer: Bluetooth technology enables real-time data transmission between the biometric device and the web-based backend server.
+Web-Based Application: Admins can monitor attendance records, manage user information, and send real-time updates via mobile messages.
+Power Efficiency: Capable of operating on both AC and DC power sources, with automatic switching between power modes.
+Message Alerts: Automatically sends SMS notifications to students and their concerned contacts (e.g., parents, department heads) when attendance is recorded.
 
 ## Hardware Design Considerations:
 The proposed system is made up of many components. Every component has its functions. The Arduino Uno is used as the central processing unit in this system. The proposed method consists of a fingerprint sensor (FPM10A), two HC-05 Bluetooth modules, a PL2303 USB to Serial (TTL) module, a dc-dc buck converter, a rechargeable lipo battery, and the power supply. A cooling fan is also used for the cooling purpose of the whole circuitry. The hardware setup shows how all types of equipment are connected.
