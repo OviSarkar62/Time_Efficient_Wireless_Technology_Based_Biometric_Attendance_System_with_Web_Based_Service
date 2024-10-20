@@ -53,8 +53,8 @@ The system uses Visual Basic to create a .exe application file with the followin
 
 The VB-IDE (Visual Basic Integrated Development Environment) enables rapid application development, making it possible to create a Graphical User Interface (GUI) that connects seamlessly with the backend handler functions. The teacher can access a student’s daily attendance records, and the students can log in to check their attendance history.
 
-### Web Configuration (Visual C)
-The web configuration is completed using Visual C, providing:
+### Web Configuration (Visual C#)
+The web configuration is completed using Visual C#, providing:
 
 - Database Interaction: Stores and retrieves attendance records from a MySQL database.
 - API Integration: The system uses an API to send SMS notifications to the concerned parties (e.g., parents, department heads) whenever a student’s fingerprint is scanned.
