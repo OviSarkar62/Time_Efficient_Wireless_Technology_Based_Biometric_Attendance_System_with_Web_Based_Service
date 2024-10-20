@@ -6,13 +6,21 @@ This repository contains the code and implementation for a Time Efficient Wirele
 
 ## Key Features
 - Automated Fingerprint-based Attendance: Uses fingerprint recognition to record attendance, minimizing the chance of proxy attendance.
-Wireless Data Transfer: Bluetooth technology enables real-time data transmission between the biometric device and the web-based backend server.
-Web-Based Application: Admins can monitor attendance records, manage user information, and send real-time updates via mobile messages.
-Power Efficiency: Capable of operating on both AC and DC power sources, with automatic switching between power modes.
-Message Alerts: Automatically sends SMS notifications to students and their concerned contacts (e.g., parents, department heads) when attendance is recorded.
+- Wireless Data Transfer: Bluetooth technology enables real-time data transmission between the biometric device and the web-based backend server.
+- Web-Based Application: Admins can monitor attendance records, manage user information, and send real-time updates via mobile messages.
+- Power Efficiency: Capable of operating on both AC and DC power sources, with automatic switching between power modes.
+- Message Alerts: Automatically sends SMS notifications to students and their concerned contacts (e.g., parents, department heads) when attendance is recorded.
 
-## Hardware Design Considerations:
-The proposed system is made up of many components. Every component has its functions. The Arduino Uno is used as the central processing unit in this system. The proposed method consists of a fingerprint sensor (FPM10A), two HC-05 Bluetooth modules, a PL2303 USB to Serial (TTL) module, a dc-dc buck converter, a rechargeable lipo battery, and the power supply. A cooling fan is also used for the cooling purpose of the whole circuitry. The hardware setup shows how all types of equipment are connected.
+## System Architecture
+The system consists of two main units:
+
+- Hardware Unit: Comprises an Arduino UNO, FPM10A fingerprint sensor, HC-05 Bluetooth module, and a power supply system.
+- Software Unit: Includes the backend database (MySQL) and a web application for attendance management.
+The system workflow is as follows:
+
+- Fingerprint data is captured and processed using the SmakFinger3.0 Algorithm.
+- Data is transmitted via Bluetooth to the backend server for storage and further actions.
+- The web application allows administrators to monitor attendance and send mobile messages.
 
 ## (1)	Arduino Uno
 The Arduino Uno is a microcontroller board based on the ATmega328. It has 14 digital input/output pins (of which six are used as PWM outputs), six analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header, and a reset button. Its operating voltage is 5V, but its input voltage has a limit of 6 to 20V with DC Current per I/O Pin of 40mA.
