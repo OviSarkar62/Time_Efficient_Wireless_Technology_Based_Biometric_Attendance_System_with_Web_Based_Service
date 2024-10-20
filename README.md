@@ -3,6 +3,12 @@
 ## Overview
 This repository contains the code and implementation for a Time Efficient Wireless Technology-Based Biometric Attendance System designed to improve attendance management in academic settings. By integrating fingerprint biometric technology with wireless data transmission and a web-based service, this system provides a secure, fast, and user-friendly way to record and monitor attendance. The system operates with both AC and DC power, ensuring reliability in various environments.
 
+<p align="center">
+  <img alt="img-name" src="https://github.com/OviSarkar62/Time_Efficient_Wireless_Technology_Based_Biometric_Attendance_System_with_Web_Based_Service/blob/6fd6b302eb4dbe00197149809af4660cdfaaed13/Img-4.png" width="800">
+  
+  <br>
+    <em>Fig: Block diagram of the proposed system architecture</em>
+</p>
 
 ## Key Features
 - Automated Fingerprint-based Attendance: Uses fingerprint recognition to record attendance, minimizing the chance of proxy attendance.
