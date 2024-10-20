@@ -24,7 +24,7 @@ The system workflow is as follows:
 - The web application allows administrators to monitor attendance and send mobile messages.
 
 <p align="center">
-  <img alt="img-name" src="https://github.com/OviSarkar62/Time_Efficient_Wireless_Technology_Based_Biometric_Attendance_System_with_Web_Based_Service/blob/06ba4db3b82440ca79b0607836b3847f57b1749f/Img-1.png" width="800">
+  <img alt="img-name" src="https://github.com/OviSarkar62/Time_Efficient_Wireless_Technology_Based_Biometric_Attendance_System_with_Web_Based_Service/blob/b00ef6c8b280b5404d195df68aeb7ce493dab437/Img-1.png" width="800">
   
   <br>
     <em>Fig: Procedural Steps of the Proposed System Architecture</em>
