@@ -45,4 +45,18 @@ The system uses Visual Basic to create a .exe application file with the followin
 - Exit Button: Closes the application.
 
 The VB-IDE (Visual Basic Integrated Development Environment) enables rapid application development, making it possible to create a Graphical User Interface (GUI) that connects seamlessly with the backend handler functions. The teacher can access a student’s daily attendance records, and the students can log in to check their attendance history.
- 
+
+### Web Configuration (Visual C)
+The web configuration is completed using Visual C, providing:
+
+- Database Interaction: Stores and retrieves attendance records from a MySQL database.
+- API Integration: The system uses an API to send SMS notifications to the concerned parties (e.g., parents, department heads) whenever a student’s fingerprint is scanned.
+
+### Data Flow
+- When a fingerprint is scanned, it checks whether the fingerprint is already enrolled. If not, it is discarded.
+- The fingerprint data is then transmitted via Bluetooth to the backend, where it is stored in the database.
+- The system is designed to only allow enrolled fingerprints to be recorded in the database, ensuring data integrity.
+### Connectivity and Notifications
+- The Bluetooth Module communicates the fingerprint data wirelessly between the hardware and the software.
+- A secure internet connection is required to send messages using the API system. If there’s no internet or balance in the system, the message alerts will not function.
+- The API sends SMS alerts to the designated contacts when attendance is recorded.
