@@ -31,12 +31,18 @@ The system workflow is as follows:
 - DC-DC Buck Converter: Manages the power supply and ensures the system runs efficiently on different power sources.
 - Rechargeable Li-Po Battery: Provides backup power for uninterrupted operation during power outages.
 
+## Software Design 
+The software for this biometric attendance system is built using Visual Basic and Visual C, providing an easy-to-use interface and efficient data handling. Here’s a breakdown of the design and functionality:
 
+### Client-Side Application (Visual Basic)
+The system uses Visual Basic to create a .exe application file with the following components:
 
-
-
-## Software Design Considerations:
-In the software development section, two languages are used. A Visual Basic programming language used for making an .exe application file. The .exe application file contains a serial port, a box showing the last ID, a timer, a connect/disconnect button, and an exit button. While taking data from the modules, the connect button should be on. Otherwise, the data will not store on the specified database. Another language is Visual C, which is used to complete the web configuration. The VB-IDE supports rapid application development to develop graphical user interfaces (GUI) for connecting them to handler functions. With the formed database, it can quickly check because a view option is made from where a teacher can easily access a student’s daily attendance. The student can also have access to the student login option where an API is used for transferring a message to the concerned people like Department Head or parents. The database stores the enrolled value only. The fingerprints which are not enrolled before would not be stored in the database if the fingerprint was pressed while taking attendance. The Bluetooth module passes the data to another Bluetooth module, which is connected with the USB to Serial (TTL) module. With the help of this module, the data goes through the database. But it needs a secure internet connection to collect the data and sending the messages to the corresponding numbers. The API system works with an internet connection. It requires an amount of balance in the API system to send the messages. Otherwise, the messaging system will not work, and the concerned people will not be able to get the proper reports.
+- Serial Port Communication: Used to gather data from the fingerprint and Bluetooth modules.
+- User Interface: Includes fields like:
+- Last ID Display: Shows the last recorded attendance ID.
+- Timer: Tracks the time of attendance entries.
+- Connect/Disconnect Buttons: Allows the admin to initiate or stop communication with the hardware. The system only records data when the connection is active.
+- Exit Button: Closes the application.
 
 
 
