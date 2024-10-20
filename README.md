@@ -23,6 +23,13 @@ The system workflow is as follows:
 - Data is transmitted via Bluetooth to the backend server for storage and further actions.
 - The web application allows administrators to monitor attendance and send mobile messages.
 
+<p align="center">
+  <img alt="img-name" src="https://github.com/OviSarkar62/Time_Efficient_Wireless_Technology_Based_Biometric_Attendance_System_with_Web_Based_Service/blob/06ba4db3b82440ca79b0607836b3847f57b1749f/Img-1.png" width="800">
+  
+  <br>
+    <em>Fig: Procedural Steps of the Proposed System Architecture</em>
+</p>
+
 ## Hardware Components
 - Arduino UNO: Acts as the central processing unit for managing fingerprint data and wireless communication.
 - FPM10A Fingerprint Sensor: Captures and verifies the fingerprints of users.
