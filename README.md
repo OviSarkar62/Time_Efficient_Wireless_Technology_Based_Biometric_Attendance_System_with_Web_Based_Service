@@ -44,6 +44,5 @@ The system uses Visual Basic to create a .exe application file with the followin
 - Connect/Disconnect Buttons: Allows the admin to initiate or stop communication with the hardware. The system only records data when the connection is active.
 - Exit Button: Closes the application.
 
-
-
+The VB-IDE (Visual Basic Integrated Development Environment) enables rapid application development, making it possible to create a Graphical User Interface (GUI) that connects seamlessly with the backend handler functions. The teacher can access a student’s daily attendance records, and the students can log in to check their attendance history.
  
